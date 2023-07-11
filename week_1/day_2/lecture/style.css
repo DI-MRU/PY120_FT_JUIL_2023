@@ -1,0 +1,59 @@
+.navmenu {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+
+div {
+  display: flex;
+  height: 100px;
+  /* text-align: center; */
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+div:hover {
+  color: green;
+  background-color: brown;
+}
+
+#div1 {
+  background-color: red;
+}
+
+#div2 {
+  background-color: blue;
+}
+
+#div3 {
+  background-color: green;
+}
+
+#div4 {
+  background-color: purple;
+}
+
+@media only screen and (min-width: 600px) {
+  div {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  div {
+    width: 50%;
+    float: left;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  div {
+    width: 25%;
+    float: left;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+b {
+  color: red;
+}
+
+body {
+  background-color: #808080;
+  /* background-image: url("./img/Twitter\ social\ icons\ -\ circle\ -\ blue.png"); */
+}
+
+div {
+  color: white;
+}
+
+div.orange {
+  color: orange;
+}
+
+span.orange {
+  color: gold;
+}
+
+#jeremy {
+  text-decoration: line-through;
+  font-size: larger;
+  border: 20px solid blanchedalmond;
+  border-radius: 15px;
+}
+
+h1,
+h2,
+h3 {
+  color: pink;
+}
+
+div div {
+  color: green;
+}
+
+div > span {
+  background-color: aqua;
+}
+
+div ~ div {
+  background-color: teal;
+}
+
+div + span {
+  background-color: brown;
+}
+
+.ex2 {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+h2 {
+  padding: 50px;
+  background-color: black;
+  width: 400px;
+  border: 100px solid white;
+  box-sizing: border-box;
+}
+
+h3 {
+  margin: 50px;
+  background-color: black;
+  width: 400px;
+  border: 100px solid white;
+  box-sizing: content-box;
+}
+
+ul {
+  list-style-type: square;
+}
+
+h4 {
+  text-shadow: 5px 5px 10px purple;
+}
+/* 
+div {
+  display: inline;
+}
+
+span {
+  display: block;
+}
+
+b {
+  display: block;
+} */
+
+span.flag-blue {
+  background-color: blue;
+  padding: 20px;
+}
+
+span.flag-white {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+span.flag-red {
+  background-color: rgba(255, 0, 0, 255);
+  padding: 20px;
+}
