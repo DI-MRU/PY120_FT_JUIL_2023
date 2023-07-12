@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css file path here" />
+    <title>Landing Page</title>
+    <style>
+      body,
+      html {
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .navbar {
+        background-color: rgba(188, 184, 184, 0.863);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .navbar a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+        cursor: default;
+      }
+      .navbar button {
+        background-color: blue;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      ._container {
+        position: relative;
+        text-align: center;
+      }
+      ._img {
+        width: 100%;
+      }
+      ._Herocontainer {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(0, 0, 0, 0.5);
+        padding: 10px;
+      }
+      ._mainBox {
+        margin: 0 auto;
+        max-width: max-content;
+        padding: 5px;
+      }
+      .text {
+        color: aliceblue;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+      .form {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+      }
+      .email {
+        padding: 8px;
+        margin-right: 10px;
+        border: none;
+        border-radius: 5px;
+      }
+      ._emailButton {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-weight: bold;
+      }
+      ._next {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex: 1;
+        flex-direction: column;
+        text-align: center;
+        background-color: aliceblue;
+        padding: 10px 10px 50px 20px;
+      }
+      ._next i {
+        font-size: 50px;
+        color: blue;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      ._next h3 {
+        margin: 0;
+        font-weight: bold;
+      }
+      ._next p {
+        margin: 0;
+        font-weight: bold;
+        color:rgb(67, 67, 67);
+      }
+      ._next-container {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- content here -->
+    <nav class="navbar">
+      <a href="#">Start Bootstrap</a>
+      <button>Sign up!</button>
+    </nav>
+    <section class="_container">
+      <img
+        class="_img"
+        src="https://wallpapertag.com/wallpaper/full/8/3/c/829601-large-tropical-beach-desktop-backgrounds-2560x1600-for-retina.jpg"
+      />
+      <div class="_Herocontainer">
+        <div class="_mainBox">
+          <h1 class="text">
+            Build a landing page for your business or project and generate more
+            leads!
+          </h1>
+        </div>
+        <div class="form">
+          <input class="email" type="email" placeholder="Enter your email" />
+          <button class="_emailButton">Sign up!</button>
+        </div>
+      </div>
+    </section>
+    <section class="_next-container">
+        <div class="_next">
+          <i class="fa fa-solid fa-display"></i>
+          <h3>Fully Responsive</h3>
+          <p>This theme will look great on any device no matter the size!</p>
+        </div>
+        <div class="_next">
+          <i class="fa fa-solid fa-layer-group"></i>
+          <h3>Bootstrap 4 Ready</h3>
+          <p>Featuring the latest build of the new Bootstrap 4 framework!</p>
+        </div>
+        <div class="_next">
+          <i class="fa fa-regular fa-circle-check"></i>
+          <h3>Easy to use</h3>
+          <p>Ready to use with your own content, or customize the source filrs!</p>
+        </div>
+    </section>
+  </body>
+</html>

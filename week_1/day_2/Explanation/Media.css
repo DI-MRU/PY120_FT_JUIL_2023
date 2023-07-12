@@ -1,0 +1,40 @@
+body{
+    color: red;
+}
+.title{
+    font-size: 5em;
+}
+.sub{
+    font-size: 3em;
+}
+/* Media Query */
+@media screen and (max-width:500px){
+    .title{
+        color: green;
+    }
+}
+/* Print */
+@media print {
+    .sub{
+        color: aqua;
+    }
+}
+   /* All */
+@media (max-width:500px){
+    .title{
+        color: black;
+    }
+}
+/* orientation */
+/* AND */
+@media (orientation:landscape) and (max-width:500px){
+    .title{
+        color: blueviolet;
+    }
+}
+/* OR */
+@media (orientation:portrait) ,(max-width:100px){
+    .sub{
+        color: cadetblue;
+    }
+}
