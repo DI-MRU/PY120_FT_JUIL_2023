@@ -3,3 +3,4 @@
 - *Day 1* `Xp` ***Excercise 1 + 2  + *Explantion**** ✅️
 - *Day 2* `Xp`  ***Excercise 1 + 2  + *Explantion**** ✅️
 - *Day 3* ****Explantion**** ✅️
+- *Day 4* ****Explantion**** ✅️
