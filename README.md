@@ -1,6 +1,10 @@
 # PY120_FT_JUIL_2023
+
 ## Week 1
-- *Day 1* `Xp` ***Excercise 1 + 2  + *Explantion**** ✅️
-- *Day 2* `Xp`  ***Excercise 1 + 2  + *Explantion**** ✅️
-- *Day 3* ****Explantion**** ✅️
-- *Day 4* ****Explantion**** ✅️
+
+- _Day 1_ `Xp` ***Excercise 1 + 2 + *Explantion\*\*** ✅️
+- _Day 2_ `Xp` ***Excercise 1 + 2 + *Explantion\*\*** ✅️
+- _Day 3_ \***\*Explantion\*\*** ✅️
+- _Day 4_ \***\*Explantion\*\*** ✅️
+
+test
