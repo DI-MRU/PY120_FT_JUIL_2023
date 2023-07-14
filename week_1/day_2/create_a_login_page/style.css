@@ -1,0 +1,155 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  margin: 3rem 25rem 3rem 25rem;
+  border: 1px solid black;
+}
+
+.container > .left {
+  width: 50%;
+  background-color: whitesmoke;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.container > .left *,
+.container + .right * {
+  margin-bottom: 1.5rem;
+}
+
+.container > .right {
+  width: 50%;
+  /* background-color: #23212f; */
+  background: rgb(152, 38, 172);
+  background: linear-gradient(
+    322deg,
+    rgba(152, 38, 172, 1) 0%,
+    rgba(30, 33, 42, 1) 100%
+  );
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  flex-flow: row wrap;
+}
+
+h1 {
+  width: 100%;
+  margin: 0px;
+}
+
+input {
+  border: 0px;
+  background-color: rgb(216, 212, 212);
+  padding: 0.75rem;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+}
+
+.form-container {
+  display: flex;
+}
+
+.form-container .left {
+  width: 50%;
+  height: 1rem;
+}
+
+.form-container .right {
+  width: 50%;
+  height: 1rem;
+  text-align: end;
+}
+
+form {
+  width: 100%;
+}
+
+.fancy {
+  line-height: 0.5;
+  width: 100%;
+  text-align: center;
+}
+.fancy span {
+  display: inline-block;
+  position: relative;
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid rgb(216, 212, 212);
+  top: 0;
+  width: 100%;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 35px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 35px;
+}
+
+svg {
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  align-self: flex-end;
+}
+
+.submit-btn {
+  background-color: #9c27b0;
+  font-size: large;
+  font-weight: 800;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+button {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0);
+  color: whitesmoke;
+  font-size: 1.5rem;
+  padding: 1rem;
+  border: 1px solid whitesmoke;
+  border-radius: 30px;
+  cursor: pointer;
+  transition-duration: 150ms;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+
+button .left,
+button .right {
+  margin: 0px;
+}
