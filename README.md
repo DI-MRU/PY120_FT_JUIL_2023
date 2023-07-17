@@ -7,4 +7,7 @@
 - _Day 3_ \***\*Explantion\*\*** ✅️
 - _Day 4_ \***\*Explantion\*\*** ✅️
 
+## Week 2
+- _Day 1_ `Xp` ***Excercise 1 + 2 + 3 + *Daily_challenge\*\*** ✅️
+
 test
