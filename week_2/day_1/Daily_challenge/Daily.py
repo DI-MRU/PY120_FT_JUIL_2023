@@ -33,5 +33,10 @@ print("Constructing string character by character:")
 for i in range(len(user_input)):
     print(user_input[0:i+1])
 
-shuffle="".join(random.sample(user_input,len(user_input)))
-print("Shuffle: ", shuffle)
+characters = list(user_input)
+random.shuffle(characters)
+shuffle = "".join(characters)
+print("Shuffle character:", shuffle)
+
+# print("Shuffled characters:", s_shuffle)
+# shuffle="".join(random.sample(user_input,len(user_input)))
