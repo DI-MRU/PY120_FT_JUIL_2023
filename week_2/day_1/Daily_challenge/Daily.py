@@ -39,4 +39,4 @@ shuffle = "".join(characters)
 print("Shuffle character:", shuffle)
 
 # print("Shuffled characters:", s_shuffle)
-# shuffle="".join(random.sample(user_input,len(user_input)))
+# s_shuffle="".join(random.sample(user_input,len(user_input)))
