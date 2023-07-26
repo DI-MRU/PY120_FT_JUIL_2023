@@ -9,8 +9,10 @@
 
 ## Week 2
 - _Day 1_ `Xp` ***Exercise 1 + 2 + 3 + *Daily_challenge\*\*** ✅️
-- - _Day 5_ `Xp` ***Exercise 1\*\** ✅️
+- _Day 5_ `Xp` ***Exercise 1\*\** ✅️
 
+## Week 3
+- _Day 3_ `Xp` ***Exercise Gold\*\** ✅️
 
 
 test
