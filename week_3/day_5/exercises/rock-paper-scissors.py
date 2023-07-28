@@ -3,7 +3,7 @@ from game import Game
 def get_user_menu_choice():
     while True:
         print("Menu")
-        choice = input(" Play a new game (N) or Show scores or Quit (Q)").lower()
+        choice = input(" Play a new game (N) or Show scores and Quit (Q)").lower()
         if choice in ['n','q']:
             return choice
         print("Invalid")
