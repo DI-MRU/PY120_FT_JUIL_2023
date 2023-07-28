@@ -72,7 +72,7 @@ Can you think of another way to generate a sequence of floats?Create a list cont
 '''
 # method1
 # sequence = [x/2 for x in range(3,11)]
-# print(sequence) Do not hard code it!
+# print(sequence) 
 
 start = 1.5
 step=0.5
