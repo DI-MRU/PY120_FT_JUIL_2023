@@ -1,23 +1,28 @@
 {
     "pokemons": [
-      {
-        "name": "Pikachu",
-        "type": "Electric",
-        "power": 55,
-        "evolves_from": "Pichu"
-      },
-      {
-        "name": "Charizard",
-        "type": "Fire/Flying",
-        "power": 84,
-        "evolves_from": "Charmeleon"
-      },
-      {
-        "name": "Bulbasaur",
-        "type": "Grass/Poison",
-        "power": 49,
-        "evolves_from": "None"
-      }
+        {
+            "name": "pikachu",
+            "type": "electric",
+            "power": 35,
+            "evolves_from": "pichu"
+        },
+        {
+            "name": "charizard",
+            "type": "fire/flying",
+            "power": 78,
+            "evolves_from": "charmeleon"
+        },
+        {
+            "name": "bulbasaur",
+            "type": "grass/poison",
+            "power": 45,
+            "evolves_from": "None"
+        },
+        {
+            "name": "ditto",
+            "type": "normal",
+            "power": 48,
+            "evolves_from": "None"
+        }
     ]
-  }
-  
+}
