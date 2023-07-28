@@ -1,7 +1,12 @@
 import json
+import os
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
+json_file_path = os.path.join(script_dir, 'pokemon_data.json')
 
 # Open the JSON file and load data
-with open('pokemon_data.json', 'r') as f:
+# with open('pokemon_data.json', 'r') as f: # Does the same thing
+with open (json_file_path, 'r') as f:
     data = json.load(f)
 
 # Access the list of pokemons
