@@ -1,0 +1,14 @@
+sdlc methodologies
+- waterfall (old)
+- agile methodologies
+    - scrum
+    - kanban
+
+- uml diagrams
+ -class diagrams 
+ - statechart
+ - activity diagrams
+ - use case diagram
+
+
+- software design patterns
