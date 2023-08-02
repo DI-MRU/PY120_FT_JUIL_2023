@@ -1,4 +1,4 @@
-class Farm:
+class Farme:
     def __init__(self,name):
         self.name = name
         self.animals = {}
@@ -27,7 +27,7 @@ class Farm:
 
 
 # Test the code
-macdonald = Farm("McDonald")
+macdonald = Farme("McDonald")
 macdonald.add_animal('cow', 5)
 macdonald.add_animal('sheep')
 macdonald.add_animal('sheep')
