@@ -22,5 +22,9 @@
 
 ## Week 4
 - _Day 1_ `Xp` ***Exercise 1 + 2 + 3 + *Explantion\*\*** ✅️
+- _Day 4_ `Xp` ***Exercise 1 + 2 + 3 \*\*** ✅️
 
+## Week 5
+- _Day 1_ `Xp` ***Explantion\*\*** ✅️
+- _Day 2_ `Xp` ***Exercise 1 + 2  \*\*** ✅️
 test
