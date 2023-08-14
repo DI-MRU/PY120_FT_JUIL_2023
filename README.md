@@ -27,4 +27,8 @@
 ## Week 5
 - _Day 1_ `Xp` ***Explantion\*\*** ✅️
 - _Day 2_ `Xp` ***Exercise 1 + 2  \*\*** ✅️
-test
+- _Day 4_ `Xp` ***Explanation \*\*** ✅️
+- _Day 5_ `Xp` ***Miniproject \*\*** ✅️
+
+## Week 6
+- _Day 1_ `Xp` ***Explantion + Xp \*\*** ✅️
