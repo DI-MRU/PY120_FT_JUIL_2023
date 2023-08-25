@@ -32,3 +32,9 @@
 
 ## Week 6
 - _Day 1_ `Xp` ***Explantion + Xp \*\*** ✅️
+- _Day 4_ `Xp` ***Explantion \*** ✅️
+- _Day 5_ `Xp` ***Explantion + Xp \*\*** ✅️
+
+## Week 7
+- _Day 1_ `Xp` ***Explantion \*** ✅️
+- _Day 2_ `Xp` ***Explantion + Daily Challenge \*\*** ✅️
