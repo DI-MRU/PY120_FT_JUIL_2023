@@ -3,3 +3,5 @@ requests
 numpy
 psycopg2
 django
+pandas
+matplotlib
