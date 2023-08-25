@@ -117,3 +117,4 @@ if (true){
     var num = 3 // global - scope
 }
 console.log(num)
+
