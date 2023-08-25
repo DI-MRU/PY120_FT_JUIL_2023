@@ -38,3 +38,4 @@
 ## Week 7
 - _Day 1_ `Xp` ***Explantion \*** ✅️
 - _Day 2_ `Xp` ***Explantion + Daily Challenge \*\*** ✅️
+- _Day 5_ `Xp`***Explantion + Daily Challenge \*\*** ✅️

@@ -11,7 +11,7 @@ function anagram(word1, word2) {
   return split === split2;
 }
 
-console.log(anagram("w     d", "wd"));
+console.log(anagram("worl     d", "world"));
 
 let anagram2 = (word1, word2) => {
   let split = word1.replace(/\s+/g, "").toLowerCase();
