@@ -84,6 +84,10 @@ Team members: Anas
   - Resume/Pause
   - Show highscore(s)
   - Exit
+- Scorescreen
+  - Display score
+  - Restart
+  - Exit
 - Hotkeys
   - P for pause/resume
   - M for mute/unmute
