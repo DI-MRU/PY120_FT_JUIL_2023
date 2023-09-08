@@ -12,7 +12,7 @@ Team members: Onyeka
 - User Authentication (without email features)
 - Store the todo list in SQLite
 - Compact view by default
-- Expandablee item
+- Expandable item
   - Title
   - Description
   - Check/Uncheck (Complete/Incomplete)
