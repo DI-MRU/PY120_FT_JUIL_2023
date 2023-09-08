@@ -1,0 +1,28 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: honeydew;
+}
+
+.copyright {
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  height: 280px;
+}
+
+header h1 {
+  font-size: 100px;
+  margin: auto;
+}
+
+.navbar {
+  padding-left: 15%;
+  padding-right: 15%;
+}
