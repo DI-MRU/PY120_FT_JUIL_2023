@@ -22,7 +22,8 @@ header h1 {
   margin: auto;
 }
 
-.navbar {
+.navbar,
+.page_content {
   padding-left: 15%;
   padding-right: 15%;
 }

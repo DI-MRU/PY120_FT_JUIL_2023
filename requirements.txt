@@ -3,5 +3,6 @@ requests
 numpy
 psycopg2
 django
+djangorestframework
 pandas
 matplotlib
