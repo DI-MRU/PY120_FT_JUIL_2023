@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+</head>
+
+<body>
+    <h1>Tamagotchi</h1>
+    <h2>New Tamagotchi Form</h2>
+    <div>
+        <form method="post">
+            <label>Name</label>
+            <input type="text" name="tamagotchi_name" />
+            <input type="submit" value="SUBMIT" />
+            <button type="reset">RESET</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>Bag</h2>
+        <button type="button" onclick="displayTamagotchi()">DISPLAY ALL</button>
+
+        <ul id="tamagotchi_list">
+            <li>To display the list, please press on the `DISPLAY ALL` button above.</li>
+        </ul>
+    </div>
+
+    <script>
+        async function displayTamagotchi() {
+            response = await fetch("http://localhost:5000/api/v1/tamagotchis");
+            tamagotchiList = await response.json();
+
+            const tamagotchiListEl = document.querySelector("#tamagotchi_list");
+            tamagotchiListEl.innerHTML = "";
+            // for (let i = 0; i < tamagochiList.length; i++) {
+            //     const item = document.createElement("li");
+            //     item.innerText = `Name: ${tamagochiList[i].name} | Age: ${tamagochiList[i].age}`;
+            //     tamagotchiListEl.appendChild(item);
+            // }
+            tamagotchiList.forEach(tamagotchi => {
+                const item = document.createElement("li");
+                item.innerText = `Name: ${tamagotchi.name} | Age: ${tamagotchi.age}`;
+                tamagotchiListEl.appendChild(item);
+            });
+        }
+    </script>
+</body>
+
+</html>
