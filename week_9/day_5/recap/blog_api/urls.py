@@ -19,8 +19,9 @@ from django.urls import path, include
 from . import views
 
 urlpatterns = [
-    path("posts/", views.PostList.as_view(), name="api-post-list"),
+    path("posts/", views.BlogList.as_view(), name="api-post-list"),
     # path("posts/<int:id>", views.post, name="post"),
-    # path("authors/", views.authors, name="authors"),
+    path("authors/", views.AuthorNames.as_view(), name="authors"),
     # path("authors/<int:id>", views.author, name="author"),
+    path("comments/", views.CommentQuoi.as_view(), name="Comments-api")
 ]
