@@ -39,3 +39,20 @@
 - _Day 1_ `Xp` ***Explantion \*** ✅️
 - _Day 2_ `Xp` ***Explantion + Daily Challenge \*\*** ✅️
 - _Day 5_ `Xp`***Explantion + Daily Challenge \*\*** ✅️
+
+## Week 8
+- _Day 1_ `Xp` ***Explantion \*** ✅️
+- _Day 5_ `Xp`***Explantion + Daily Challenge \*\*** ✅️
+
+## Week 9
+- _Day 1_ `Xp` ***Explantion \*** ✅️
+- _Day 3_ `Xp` ***Explantion \*** ✅️
+- _Day 4_ `Xp`***Explantion \*** ✅️
+- _Day 5_ `Xp`***Explantion \*** ✅️
+
+## Week 9
+- _Day 1_ `Xp` ***Explantion \*** ✅️
+- _Day 4_ `Xp` ***Explantion \*** ✅️
+
+## Week 10
+- _Day 1_ `Xp` ***Explantion \*** ✅️
