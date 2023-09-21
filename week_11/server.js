@@ -2,7 +2,6 @@ const express = require("express");
 const BodyParser = require("body-parser");
 const cors = require("cors");
 // const { Pool } = require("pg");
-const { error } = require("console");
 const dotenv = require('dotenv');
 const mongoose = require('mongoose')
 
